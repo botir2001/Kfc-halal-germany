@@ -57,9 +57,9 @@ The locations are not presented as a definitive ranking. Demographic estimates d
 
 Incremental profit is defined as:
 
-$$
+```math
 \Delta \Pi = Rgm - C_H
-$$
+```
 
 where:
 
@@ -70,19 +70,15 @@ where:
 
 The break-even sales uplift is:
 
-$$
+```math
 g^{BE} = \frac{C_H}{Rm}
-$$
+```
 
 Under the illustrative middle scenario used in the analysis:
 
-$$
-g^{BE}
-=
-\frac{25,000}
-{1,979,724 \times 0.40}
-\approx 3.16\%
-$$
+```math
+g^{BE} = \frac{25{,}000}{1{,}979{,}724 \times 0.40} \approx 3.16\%
+```
 
 ## Interpretation
 
