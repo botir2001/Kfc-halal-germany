@@ -1,0 +1,9 @@
+store_id,city,address,operator,postcode,latitude,longitude,data_class,benchmark_year,muslim_estimate,comparison_share_pct,evidence_strength
+NRW003,Bielefeld,Bahnhofstr. 28,Tatar KFC Verwaltungs GmbH,NA,52.0256228,8.5329531,B,2024,50000,14.555744133307329,Medium-high
+NRW004,Bielefeld,Eckendorfer Str. 20,Tatar KFC BIE GmbH & Co. KG,NA,52.032905,8.5552956000000009,B,2024,50000,14.555744133307329,Medium-high
+NRW007,Bonn,Maximiliancenter Poststrasse 2,Collins Foods Germany Limited,53111,50.732639,7.097682,A,2025,337,10.3,High
+NRW017,Essen,Bottroper Str. 130,Collins Foods Germany GmbH,NA,51.4774359,6.9832136,B,2019,NA,15.1,Medium
+NRW028,Köln,Köln Hauptbahnhof,Collins Foods Germany Limited,NA,50.9427839,6.9590705,B,2024,120000,10.982906022018897,Medium-high
+NRW029,Köln,Frankfurter Str. 751,Collins Foods Germany Limited,NA,50.9117406,7.0558801,B,2024,120000,10.982906022018897,Medium-high
+NRW030,Köln,Rudolfplatz 12,Lamia Restaurant GmbH,NA,50.9367768,6.939719,B,2024,120000,10.982906022018897,Medium-high
+NRW031,Köln,Dürener Straße 421,Tatar KFC FN GmbH,NA,50.9196788,6.8518161,B,2024,120000,10.982906022018897,Medium-high

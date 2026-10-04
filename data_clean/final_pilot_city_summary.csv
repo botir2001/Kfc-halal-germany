@@ -1,0 +1,5 @@
+city,kfc_branches,data_class,benchmark_year,muslim_estimate,comparison_share_pct,benchmark_scope,benchmark_type
+Essen,1,B,2019,NA,15.1,City,origin_based_estimate
+Bielefeld,2,B,2024,50000,14.555744133307329,City,community_estimate
+Köln,4,B,2024,120000,10.982906022018897,City,approximate_estimate
+Bonn,1,A,2025,337,10.3,Statistical district 111 - Zentrum-Münsterviertel,municipal_estimate

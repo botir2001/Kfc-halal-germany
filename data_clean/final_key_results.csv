@@ -1,0 +1,9 @@
+result,value,unit,evidence_type
+KFC Germany sales 2025,429600000,EUR,FACT
+KFC Germany restaurants 2025,217,restaurants,FACT
+Average annual sales per restaurant,1979723.5023041475,EUR/year,DERIVED
+Pilot cities,4,cities,DERIVED
+Pilot branches,8,branches,DERIVED
+Baseline annual halal cost per branch,25000,EUR/year,ASSUMPTION
+Baseline incremental margin,40,percent,ASSUMPTION
+Baseline break-even sales lift,3.16,percent,ASSUMPTION-DEPENDENT DERIVED

@@ -1,0 +1,5 @@
+sales_lift_percent,branches,incremental_revenue,incremental_contribution,total_halal_cost,net_incremental_profit,result
+1,8,158378,63351,200000,-136649,Loss
+3,8,475134,190053,200000,-9947,Loss
+5,8,791889,316756,200000,116756,Profitable
+10,8,1583779,633512,200000,433512,Profitable
