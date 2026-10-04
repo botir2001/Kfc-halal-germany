@@ -1,3 +1,58 @@
+# KFC Halal Germany
+
+Independent analysis of the commercial case for introducing halal-certified chicken at selected KFC restaurants in Germany.
+
+## Research question
+
+Under what conditions could halal-certified chicken be commercially viable for KFC Germany, and which locations would provide the strongest candidates for an initial pilot?
+
+## Key results
+
+- **45 KFC restaurants** across **32 cities in North Rhine-Westphalia** were screened.
+- **8 potential pilot locations** were identified across **Essen, Bielefeld, Cologne, and Bonn**.
+- KFC Germany reported **EUR 429.6 million in sales across 217 restaurants in 2025**.
+- These figures imply a sales-per-listed-restaurant scaling benchmark of approximately **EUR 1.98 million**.
+- Under an illustrative scenario of **EUR 25,000 additional annual halal-related cost per restaurant** and a **40% incremental contribution margin**, the estimated break-even sales uplift is approximately **3.16%**.
+
+Under the same illustrative assumptions, for an eight-restaurant candidate pool:
+
+| Sales uplift | Net incremental result |
+|---:|---:|
+| 1% | EUR -136,649 |
+| 3% | EUR -9,947 |
+| 5% | EUR +116,756 |
+| 10% | EUR +433,512 |
+
+These are **scenario results, not forecasts of actual KFC performance**.
+
+## Methodology
+
+The project combines:
+
+- KFC restaurant-location screening
+- publicly available demographic evidence
+- assessment of local Muslim-population evidence quality
+- geographic pilot-location selection
+- break-even analysis
+- sensitivity analysis
+- proposed controlled pilot evaluation
+- difference-in-differences framework for estimating incremental sales effects
+
+The demographic screening is used to identify plausible pilot markets rather than to predict restaurant-level demand.
+
+## Pilot candidate markets
+
+The screening identified four candidate markets within the available evidence:
+
+- **Essen**
+- **Bielefeld**
+- **Cologne**
+- **Bonn**
+
+Together, these markets contain eight KFC restaurants included in the candidate pool.
+
+The locations are not presented as a definitive ranking. Demographic estimates differ in geographic coverage, methodology, and year, and city-level Muslim-population measures should not be interpreted as branch-level demand forecasts.
+
 ## Main economic framework
 
 Incremental profit is defined as:
@@ -18,3 +73,80 @@ The break-even sales uplift is:
 $$
 g^{BE} = \frac{C_H}{Rm}
 $$
+
+Under the illustrative middle scenario used in the analysis:
+
+$$
+g^{BE}
+=
+\frac{25,000}
+{1,979,724 \times 0.40}
+\approx 3.16\%
+$$
+
+## Interpretation
+
+The analysis does **not** conclude that halal-certified chicken would automatically be profitable for KFC Germany.
+
+Instead, it identifies a testable commercial threshold.
+
+Under the illustrative middle scenario, a persistent incremental sales uplift above approximately **3.16%** would place a restaurant above the model's break-even threshold.
+
+The appropriate next step would therefore be a **controlled pilot**, rather than an immediate nationwide rollout.
+
+## Pilot evaluation
+
+A pilot could introduce halal-certified chicken at selected treatment restaurants while comparable KFC restaurants remain unchanged.
+
+The evaluation should monitor:
+
+- restaurant sales
+- transaction volume
+- average transaction value
+- delivery activity
+- product mix
+- procurement costs
+- certification and audit costs
+- waste
+- other incremental operating costs
+
+A difference-in-differences design could then compare changes at treatment restaurants with changes at comparable untreated restaurants.
+
+Potential spillovers and customer switching between nearby KFC locations would also need to be considered.
+
+## Repository structure
+
+- `KFC_Halal_Germany_Business_Case.pdf` — full research report
+- `scripts/` — R scripts used for the analysis
+- `data_clean/` — selected final analysis outputs
+- `figures/` — profitability and break-even visualisations
+
+## Important limitations
+
+Restaurant-level KFC sales, the actual incremental cost of halal conversion, and KFC's incremental contribution margin are not publicly available.
+
+Therefore:
+
+- EUR 10,000 / 25,000 / 50,000 halal-related costs are sensitivity assumptions.
+- 30% / 40% / 50% contribution margins are sensitivity assumptions.
+- The EUR 1.98 million figure is a scaling benchmark derived from reported network sales and restaurant count, not observed sales at a typical KFC restaurant.
+- The 3.16% result is a conditional break-even threshold, not a forecast.
+- Muslim population estimates should not be interpreted as estimates of KFC demand.
+
+## Full report
+
+The full methodology, sources, demographic screening, sensitivity analysis, pilot design, and limitations are available in:
+
+**`KFC_Halal_Germany_Business_Case.pdf`**
+
+## Author
+
+**Botirjon Rajabboev**  
+M.Sc. Economics  
+University of Bonn
+
+## Usage
+
+This repository is provided for viewing, academic portfolio, and discussion purposes.
+
+**All rights reserved.** No permission is granted to copy, modify, redistribute, or reuse the code, report, or analysis without explicit permission from the author.
